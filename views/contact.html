@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form method="POST" action="/contact">
+      <label>Name:</label>
+      <input type="text" name="name" required>
+
+      <label>Email:</label>
+      <input type="email" name="email" required>
+
+      <label>Message:</label>
+      <textarea name="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <footer>© 2025 Simple Express Website</footer>
+</body>
+</html>
